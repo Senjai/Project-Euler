@@ -1,0 +1,1 @@
+These are my solutions as I work through the problems on Project Euler. Project Euler is a set of math and programming challenges. (http://projecteuler.net/)
