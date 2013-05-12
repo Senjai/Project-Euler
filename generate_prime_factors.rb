@@ -1,4 +1,4 @@
-#Ruby solution for http://projecteuler.net/problem=2
+#Ruby solution for http://projecteuler.net/problem=3
 #Prepared by Richard Wilson (Senjai)
 
 require 'prime' #So we have to do less work
@@ -15,7 +15,7 @@ def gen_prime_factors(num, start)
       start += 2
     end
   end
-  best
+  best #implicit return
 end
 
 puts gen_prime_factors(600851475143, 3)
